@@ -12,7 +12,7 @@ const MovieDetails = () => {
   const [year, setYear] = useState('');
 
   const location = useLocation();
-  const backLinkHref = location.state?.from ?? "/home";
+  const backLinkHref = location.state?.from ?? "/";
 
   const fetchMovie = async () => {
     try {
