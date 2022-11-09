@@ -1,0 +1,63 @@
+.backBtn {
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px 12px;
+    width: 80px;
+    text-align: center;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.backBtn:active,
+.backBtn:hover {
+    color: white;
+    background-color: brown;
+}
+
+.container {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.img {
+    width: 200px;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.subtitle {
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.thumb {
+    margin-left: 20px;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: brown;
+    text-decoration: underline;
+}

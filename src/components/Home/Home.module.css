@@ -1,0 +1,23 @@
+.title {
+    margin-left: 15px;
+}
+
+.item {
+    padding-top: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+.link:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+.link:visited {
+    color: brown;
+}

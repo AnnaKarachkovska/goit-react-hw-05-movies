@@ -1,0 +1,13 @@
+.item {
+    margin-top: 30px;
+}
+
+.author {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.text {
+    margin-top: 0px;
+    line-height: 1.2;
+}
