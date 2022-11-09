@@ -18,6 +18,7 @@ const Home = () => {
 
     useEffect(() => {
         fetchTrends();
+        // eslint-disable-next-line
     }, []) 
     
     return (

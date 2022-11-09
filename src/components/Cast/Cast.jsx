@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 
 
 import { getCast } from 'api/api';
-import MovieDetails from 'components/MovieDetails/MovieDetails';
 import styles from './Cast.module.css';
 
 const Cast = () => {
@@ -21,6 +20,7 @@ const Cast = () => {
 
   useEffect(() => {
     fetchCast();
+    // eslint-disable-next-line
   }, []);
 
   const noPhoto = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN4X9PZ79pQtLSBLjyhQGLT2QHD1B8TJFw2G6rpULjpODvSybDvLYdsREaXw8-qefxr20&usqp=CAU';

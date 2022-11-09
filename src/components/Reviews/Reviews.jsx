@@ -24,6 +24,7 @@ const Reviews = () => {
 
   useEffect(() => {
     fetchReviews();
+    // eslint-disable-next-line
   }, []);
 
   return (

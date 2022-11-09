@@ -27,6 +27,7 @@ const MovieDetails = () => {
 
   useEffect(() => {
     fetchMovie();
+    // eslint-disable-next-line
   }, []);
 
   let genres;

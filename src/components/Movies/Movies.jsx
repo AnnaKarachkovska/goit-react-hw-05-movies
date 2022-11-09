@@ -31,6 +31,9 @@ const Movies = () => {
   const fetchSearch = async () => {
     try {
       const movies = await searchMovie(movie);
+      if (movies.length === 0) {
+        return;
+      }
       setResults(movies);
     } catch (error) {
       console.log(error);
@@ -39,6 +42,7 @@ const Movies = () => {
 
   useEffect(() => {
     if (name !== null) {
+      // eslint-disable-next-line
       movie = name;
       fetchSearch();
     }
